@@ -6,6 +6,7 @@ opencv-python-headless
 pillow
 numpy
 moviepy
+imageio-ffmpeg
 
 # Machine learning & deep learning
 tensorflow

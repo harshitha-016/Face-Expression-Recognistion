@@ -1,8 +1,9 @@
 streamlit
 opencv-python-headless==4.10.0.84
-tensorflow
-keras
+fer==22.5.0
+pillow
 numpy
-pandas
+tensorflow==2.13.0
+keras==2.13.1
 matplotlib
 scikit-learn

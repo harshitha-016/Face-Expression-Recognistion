@@ -1,7 +1,7 @@
 # Core
 streamlit==1.51.0
 
-# Force compatible NumPy (avoid numpy 2.x incompatibilities)
+# Force compatible NumPy
 numpy==1.24.4
 
 # Image & video processing (use headless OpenCV only; remove contrib to avoid conflicts)

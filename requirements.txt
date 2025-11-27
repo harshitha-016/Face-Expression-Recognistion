@@ -15,3 +15,4 @@ scikit-learn
 
 # Emotion recognition
 fer
+mtcnn

@@ -1,14 +1,16 @@
 # Core
 streamlit
 
+# force headless opencv
+opencv-python-headless==4.8.0.74
+
 # Image & video processing
-opencv-python-headless
-pillow
+Pillow
 numpy
 moviepy==1.0.3
 imageio-ffmpeg
 
-# Machine learning & deep learning
+# ML
 tensorflow
 matplotlib
 scikit-learn

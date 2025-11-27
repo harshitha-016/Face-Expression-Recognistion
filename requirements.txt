@@ -1,20 +1,20 @@
 # Core
-streamlit
+streamlit==1.51.0
 
-# force headless opencv
-opencv-python-headless==4.8.0.74
+# Force compatible NumPy (avoid numpy 2.x incompatibilities)
+numpy==1.24.4
 
-# Image & video processing
-Pillow
-numpy
+# Image & video processing (use headless OpenCV only; remove contrib to avoid conflicts)
+opencv-python-headless==4.11.0.86
+Pillow==12.0.0
 moviepy==1.0.3
 imageio-ffmpeg
 
-# ML
-tensorflow
+# Machine learning & deep learning
+tensorflow==2.20.0
 matplotlib
 scikit-learn
 
 # Emotion recognition
-fer
-mtcnn
+fer==25.10.3
+mtcnn==1.0.0

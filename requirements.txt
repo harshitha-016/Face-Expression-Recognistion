@@ -1,11 +1,13 @@
 # Core
 streamlit==1.51.0
 
-# Force compatible NumPy
-numpy==1.24.4
+# NumPy (compatible with opencv 4.11)
+numpy==1.26.4
 
-# Image & video processing (use headless OpenCV only; remove contrib to avoid conflicts)
+# Use headless OpenCV (single opencv wheel only)
 opencv-python-headless==4.11.0.86
+
+# Image & video processing
 Pillow==12.0.0
 moviepy==1.0.3
 imageio-ffmpeg
